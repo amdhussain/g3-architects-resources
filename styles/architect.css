@@ -121,6 +121,8 @@ main > section{
 .fact-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 50px;
 }
 .fact-card{
     border: 1px solid #FF900E;
@@ -128,6 +130,7 @@ main > section{
     height: 240px;
     border-radius: 8px;
     text-align: center;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
